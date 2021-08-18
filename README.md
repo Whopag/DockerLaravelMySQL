@@ -51,7 +51,7 @@
     docker-compose run --rm artisan migrate
 ```
 
-<p align="center">Create an application key</p>
+<p align="center">Create an Laravel application key</p>
 
 ```bash
     docker-compose run --rm artisan key:generate
