@@ -65,4 +65,4 @@
 
 <h4 align="center">Questions</h4>
 
-<p>Any questions or suggestions regarding the project, please contact me on wesleyfloresterres@gmail.com</p>
+<p>Any questions or suggestions regarding the project, please contact me on 📧 wesleyfloresterres@gmail.com</p>
