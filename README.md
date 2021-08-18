@@ -45,7 +45,7 @@
     docker-compose up -d --build
 ```
 
-<p align="center">Run the Laravel migrations</p>
+<p align="center">Run Laravel migrations</p>
 
 ```bash
     docker-compose run --rm artisan migrate
