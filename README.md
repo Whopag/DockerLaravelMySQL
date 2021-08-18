@@ -28,7 +28,7 @@
 ```bash
     composer create-project laravel/laravel html
 ```
-<p align="center">After create an new project or using yours, configure the environment variables</p>
+<p align="center">After create a new project or using yours, configure the environment variables</p>
 
 ```bash
     DB_CONNECTION=mysql
