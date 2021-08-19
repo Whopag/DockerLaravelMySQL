@@ -32,7 +32,7 @@
 
 ```bash
     DB_CONNECTION=mysql
-    DB_HOST=docker-compose-laravel_mysql_1
+    DB_HOST=dockerphpmysql_mysql_1
     DB_PORT=3306
     DB_DATABASE=laravel
     DB_USERNAME=root
