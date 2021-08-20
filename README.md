@@ -48,7 +48,7 @@
 <p align="center">Run Laravel migrations</p>
 
 ```bash
-    docker-compose run --rm artisan migrate
+    docker-compose run --rm artisan migrate:fresh --seed
 ```
 
 <p align="center">Create an Laravel application key</p>
