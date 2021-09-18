@@ -7,7 +7,7 @@ services:
   nginx:
     build:
       context: .
-      dockerfile: docker\nginx\Dockerfile
+      dockerfile: docker/nginx/Dockerfile
     ports:
       - 8080:80
     volumes:
@@ -35,7 +35,7 @@ services:
   php:
     build:
       context: .
-      dockerfile: docker\php\Dockerfile
+      dockerfile: docker/php/Dockerfile
     volumes:
       - ./html:/var/www/html
     networks:
@@ -75,7 +75,7 @@ services:
   artisan:
     build:
       context: .
-      dockerfile: docker\php\Dockerfile
+      dockerfile: docker/php/Dockerfile
     working_dir: /var/www/html
     entrypoint: ['php', '/var/www/html/artisan']
     volumes:
