@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine
+FROM php:8.1-fpm-alpine
 
 RUN adduser -g www-data -s /bin/sh -D www-data; exit 0
 

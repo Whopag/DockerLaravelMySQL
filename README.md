@@ -1,9 +1,14 @@
 <p align="center">
-    <img src="logo.svg">
-</p>
-
-<p align="center">
-    Sample 👉<a href="https://laravel.com">Laravel</a>👈, 👉<a href="https://www.mysql.com">MySQL</a>👈 app with 👉<a href="https://www.docker.com">Docker</a>👈
+    Laravel Boilerplate with
+    <a href="https://www.laravel.com">
+        <img src="https://raw.githubusercontent.com/MagicalStrangeQuark/MagicalStrangeQuark/master/assets/laravel.svg" width="10%">
+    </a>
+    <a href="https://www.mysql.com">
+        <img src="https://raw.githubusercontent.com/MagicalStrangeQuark/MagicalStrangeQuark/master/assets/mysql.svg" width="10%">
+    </a>
+    <a href="https://www.nginx.com">
+        <img src="https://raw.githubusercontent.com/MagicalStrangeQuark/MagicalStrangeQuark/master/assets/nginx.svg" width="10%">
+    </a> with 👉<a href="https://www.docker.com">Docker</a>👈
 </p>
 
 <p align="center">
@@ -21,18 +26,25 @@
     </a>
 </p>
 
-<h6 align="center">Create an Empty Laravel Application</h6>
+<h5 align="center">Setup a Laravel application</h5>
 
-<p align="center">You can use <em>html<em> directory, just remove it</p>
+<h6 align="center">Remove the existing one</h6>
+
+```bash
+    sudo rm -Rf html
+```
+
+<h6 align="center">Create an empty Laravel application</h6>
 
 ```bash
     composer create-project laravel/laravel html
 ```
+
 <p align="center">After create a new project or using yours, configure the environment variables</p>
 
 ```bash
     DB_CONNECTION=mysql
-    DB_HOST=dockerphpmysql_mysql_1
+    DB_HOST=laravelmysql_mysql_1
     DB_PORT=3306
     DB_DATABASE=laravel
     DB_USERNAME=root
@@ -65,4 +77,4 @@
 
 <h4 align="center">Questions</h4>
 
-<p>Any questions or suggestions regarding the project, please contact me on 📧 wesleyfloresterres@gmail.com</p>
+<p>Any questions or suggestions regarding the project, please contact me on 📧 <strong>wesleyfloresterres@gmail.com</strong></p>
